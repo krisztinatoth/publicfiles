@@ -348,7 +348,7 @@ Array.prototype.removeValue = function(name, value){
 function pageScriptsSuperannuation(sessionID) {
 	var thesuperField = 'input#sgE-'+surveyID+'-12-70-element';
 	var partnersuperField = 'input#sgE-'+surveyID+'-12-186-element';
-	var superEvalField = 'input#sgE-'+surveyID+'-12-258-element';
+	var superEvalField = 'input#sgE-'+surveyID+'-12-252-element';
 	
 	/* Set evaluation text on page load */
 	$('#supereval').text($(superEvalField).val());
