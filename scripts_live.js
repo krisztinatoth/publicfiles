@@ -358,6 +358,8 @@ function pageScriptsSuperannuation(sessionID) {
 			thesuper = $(thesuperField).val();
 			partnersuper = $(partnersuperField).val();
 			geturl = 'https://www.fmd.com.au/ams/hwhajax.js?question=super-evaluation&sessionid='+ sessionID +'&partial=1&super=' + thesuper + '&partnersuper=' + partnersuper + '&surveyid='+ surveyID;
+			
+			console.log(geturl);
 			$('#super').text(thesuper);
 			$('#partnersuper').text(partnersuper);
 			$('#geturl').text(geturl);
